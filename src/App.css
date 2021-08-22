@@ -9,7 +9,7 @@ body {
   background-color: var(--white);
 }
 
-header {
+.header {
   position: sticky;
   top: 0;
   background-color: var(--yellow);
@@ -19,6 +19,7 @@ header {
   align-items: center;
   height: 200px;
   z-index: 20;
+  width: 100%;
 }
 
 h1 {
