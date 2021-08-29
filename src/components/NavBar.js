@@ -20,7 +20,7 @@ function NavBar({ currentPage, handlePageChange }) {
             <div className={headerClasses}>
                 <h1>
                     <a
-                        href="https:/le/github.com/vmichalecki" target="_blank"
+                        href="https://github.com/vmichalecki" target="_blank"
                         rel="noopener noreferrer">
                         Valerie Michalecki
                     </a>
