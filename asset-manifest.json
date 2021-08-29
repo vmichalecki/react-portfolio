@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.17964d72.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.daf12a7a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.daf12a7a.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
+    "static/js/2.64e2c1e1.chunk.js": "/react-portfolio/static/js/2.64e2c1e1.chunk.js",
+    "static/js/2.64e2c1e1.chunk.js.map": "/react-portfolio/static/js/2.64e2c1e1.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.17964d72.chunk.css.map": "/react-portfolio/static/css/main.17964d72.chunk.css.map",
+    "static/js/2.64e2c1e1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.64e2c1e1.chunk.js.LICENSE.txt",
+    "static/media/beatwave-screen.8458a140.png": "/react-portfolio/static/media/beatwave-screen.8458a140.png",
+    "static/media/hero.5a4d16a1.png": "/react-portfolio/static/media/hero.5a4d16a1.png",
+    "static/media/quiz-screen.76219092.png": "/react-portfolio/static/media/quiz-screen.76219092.png",
+    "static/media/weather-dashboard-screen.6bd04b95.png": "/react-portfolio/static/media/weather-dashboard-screen.6bd04b95.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872b2f22.js",
+    "static/js/2.64e2c1e1.chunk.js",
+    "static/css/main.17964d72.chunk.css",
+    "static/js/main.daf12a7a.chunk.js"
+  ]
+}
