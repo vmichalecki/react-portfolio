@@ -1,24 +1,16 @@
 import React from 'react';
+import Quiz from '../images/quiz-screen.png';
+import Weather from '../images/weather-dashboard-screen.png';
 
 function Projects() {
     return (
         <div>
-            <div className="container-first">
-                <a href="https://group-proj-1.github.io/beatwave/">
-                    <img
-                        className="first-project"
-                        src="../../images/beatwave-screen.png"
-                        alt="beatwave"
-                    />
-                </a>
-                <div className="overlay">BEATWAVE</div>
-            </div>
             <div className="container">
                 <a href="https://vmichalecki.github.io/timed-quiz/">
                     <img
                         className="projects"
-                        src="../../images/quiz-screen.png"
-                        alt="the existential dread quiz"
+                        src={Quiz}
+                        alt={'the existential dread quiz'}
                     /></a>
                 <div className="overlay">The Existential Dread Quiz</div>
             </div>
@@ -26,7 +18,7 @@ function Projects() {
                 <a href="https://vmichalecki.github.io/weather-dashboard/">
                     <img
                         className="projects"
-                        src="../../images/weather-dashboard-screen.png"
+                        src={Weather}
                         alt="weather dashboard"
                     />
                 </a>

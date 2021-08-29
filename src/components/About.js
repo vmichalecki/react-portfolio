@@ -5,10 +5,7 @@ function About() {
     return (
         <div className={aboutClass}>
             <p>
-                Hi! Fancy meeting you here. I'm Valerie. I'm an adaptable, eager, and
-                talented full stack developer who left New York City behind but took my
-                accent and ambition with me. I love programming and debugging in JavaScript. I
-                invite you to take a dive into some of projects below.
+                I'm a self-starting full stack developer from New York City with ambition and an accent who builds polished, functional products from front to back.
             </p>
 
         </div>
