@@ -7,6 +7,7 @@ function Hero() {
         <div>
             <img className={hero} src={HeroImage} alt={'Valerie Michalecki applying lipstick on Mount Everest'} />
         </div>
+
     )
 }
 

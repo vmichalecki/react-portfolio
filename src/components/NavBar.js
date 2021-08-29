@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const NavBar = () => {
+function NavBar({ currentPage, handlePageChange }) {
     let navList = 'nav-ul';
     let navItem = 'nav-li';
     let navLink = 'nav-link';
@@ -8,13 +8,31 @@ export const NavBar = () => {
         <div>
             <ul className={navList}>
                 <li className={navItem}>
-                    <a className={navLink} href="#about-me">about me</a>
+                    <a
+                        href="#about-me"
+                        onClick={() => handlePageChange('About')}
+                        className={navLink}
+                    >
+                        about me
+                    </a>
                 </li>
                 <li className={navItem}>
-                    <a class={navLink} href="#work">my work</a>
+                    <a
+                        href="#my-work"
+                        onClick={() => handlePageChange('Projects')}
+                        className={navLink}
+                    >
+                        my work
+                    </a>
                 </li>
                 <li className={navItem}>
-                    <a className={navLink} href="#contact">contact me</a>
+                    <a
+                        href="#contact"
+                        onClick={() => handlePageChange('Contact')}
+                        className={navLink}
+                    >
+                        contact me
+                    </a>
                 </li>
             </ul>
         </div>
