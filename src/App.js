@@ -1,6 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
-import Portfolio from './components/Portfolio';
+import NavBar from './components/NavBar';
+import About from './components/About';
+import Project from './components/Project';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -8,7 +12,11 @@ function App() {
   return (
     <div>
       <Header />
-      <Portfolio />
+      <NavBar />
+      <About />
+      <Project />
+      <Contact />
+      <Footer />
     </div>
   )
 }
