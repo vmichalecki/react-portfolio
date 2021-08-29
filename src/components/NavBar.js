@@ -1,11 +1,33 @@
 import React from 'react';
 
 function NavBar({ currentPage, handlePageChange }) {
+    const styles = {
+        bar: {
+            display: 'flex',
+            justifyContent: 'space-between',
+            background: '#fbc02d',
+        },
+    }
+
+    let headerClasses = 'header plain';
     let navList = 'nav-ul';
-    let navItem = 'nav-li';
+    let navItem = 'nav-li plain';
     let navLink = 'nav-link';
+
     return (
-        <div>
+        <div style={styles.bar}>
+
+            <div className={headerClasses}>
+                <h1>
+                    <a
+                        href="https:/le/github.com/vmichalecki" target="_blank"
+                        rel="noopener noreferrer">
+                        Valerie Michalecki
+                    </a>
+                </h1>
+            </div >
+
+
             <ul className={navList}>
                 <li className={navItem}>
                     <a
@@ -35,8 +57,9 @@ function NavBar({ currentPage, handlePageChange }) {
                     </a>
                 </li>
             </ul>
+
         </div>
-    )
+    );
 }
 
 export default NavBar;

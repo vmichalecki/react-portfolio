@@ -228,6 +228,7 @@ h2 {
   font-weight: 600;
   color: var(--black);
   line-height: 2;
+  list-style-type: none;
 }
 
 .contact-li:hover,
