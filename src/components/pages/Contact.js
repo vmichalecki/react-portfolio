@@ -35,14 +35,15 @@ function Contact() {
         setMessage('');
     };
 
-
-
+    let flex = 'contact-flex';
     let contactClass = 'contact-container';
     let ulClass = 'contact-ul';
     let contactLi = 'contact-li plain';
+    let form = 'form';
+    let messageInput = 'message-input';
 
     return (
-        <div>
+        <div className={flex}>
             <div className={contactClass}>
                 <h2 id="contact" class>Contact Me</h2>
                 <ul className={ulClass}>
@@ -72,7 +73,7 @@ function Contact() {
                 </a>
             </div>
 
-            <div>
+            <div className={form}>
                 <form method='POST'>
                     <input
                         value={name}
@@ -94,6 +95,7 @@ function Contact() {
                         onChange={handleInputChange}
                         type='text'
                         placeholder="Type message here..."
+                        className={messageInput}
                     />
                     <button type="button" onClick={handleFormSubmit}>Submit</button>
                 </form>

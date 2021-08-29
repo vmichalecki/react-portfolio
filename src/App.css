@@ -194,7 +194,7 @@ li {
 
 .contact-container {
   display: block;
-  width: 90%;
+  width: 30%;
   margin: 1.5rem auto;
   padding: 1rem;
   border: 0.8rem solid var(--black);
@@ -208,6 +208,11 @@ h2 {
   text-align: center;
   font-size: 200%;
   line-height: 1.25;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-around;
 }
 
 .contact-ul {
@@ -259,6 +264,31 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 200%;
+}
+
+.form {
+  margin: 1.5rem auto;
+  width: 30%;
+}
+
+input {
+  height: 2em;
+}
+
+.message-input {
+  height: 10em;
+}
+
+.form input {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+button {
+  display: block;
+  margin: auto;
 }
 
 @media screen and (max-width: 1072px) {
