@@ -35,6 +35,8 @@ function Contact() {
         setMessage('');
     };
 
+
+
     let contactClass = 'contact-container';
     let ulClass = 'contact-ul';
     let contactLi = 'contact-li plain';
@@ -66,12 +68,12 @@ function Contact() {
                     </li>
                 </ul>
                 <a class="resume" href="https://drive.google.com/file/d/1lA6H5zgeCqtPWZ-wWplDNO0MGXijGdTX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                    My Resume
+                    download my resume
                 </a>
             </div>
 
             <div>
-                <form>
+                <form method='POST'>
                     <input
                         value={name}
                         name='name'
