@@ -74,6 +74,9 @@ function Contact() {
             </div>
 
             <div className={form}>
+                <div>
+                    <h2>say hi</h2>
+                </div>
                 <form method='POST'>
                     <input
                         value={name}
