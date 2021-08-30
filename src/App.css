@@ -124,7 +124,7 @@ p {
   display: inline-block;
   vertical-align: middle;
   line-height: 40px;
-  padding: 30% 15% 30%;
+  padding: 15% 15% 30%;
 }
 
 .about-container {
@@ -152,6 +152,8 @@ p {
   position: relative;
   width: 60rem;
   max-width: 1000px;
+  margin: auto;
+  padding-top: 5em;
 }
 
 .container {
@@ -193,7 +195,7 @@ p {
 .projects {
   padding: 0;
   margin: 0;
-  display: block;
+  display: flex;
   width: 100%;
   height: auto;
 }
@@ -206,6 +208,7 @@ p {
   display: block;
   text-align: center;
   list-style: none;
+  padding-top: 0.75em;
 }
 
 li {
@@ -216,9 +219,13 @@ li {
   margin: auto;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--black);
+  line-height: 50px;
+  padding-top: 2em;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .contact-container {
