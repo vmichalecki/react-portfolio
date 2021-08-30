@@ -49,23 +49,9 @@ function Projects() {
             <div className="repo-container">
                 <h2>Repositories</h2>
                 <p className="repo-ul">
-
-                    <a className="repo-li" href="https://github.com/group-proj-1/beatwave"
-                    >BEATWAVE</a
-                    >
-
-
-                    <a className="repo-li" href="https://github.com/vmichalecki/timed-quiz"
-                    >The Existential Dread Quiz</a
-                    >
-
-
-                    <a
-                        className="repo-li"
-                        href="https://github.com/vmichalecki/weather-dashboard"
-                    >Weather Dashboard</a
-                    >
-
+                    <a className="repo-li" href="https://github.com/group-proj-1/beatwave">BEATWAVE</a>
+                    <a className="repo-li" href="https://github.com/vmichalecki/timed-quiz">The Existential Dread Quiz</a>
+                    <a className="repo-li" href="https://github.com/vmichalecki/weather-dashboard">Weather Dashboard</a> s
                 </p>
             </div>
 
