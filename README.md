@@ -6,9 +6,9 @@ I've converted my portfolio to fully functional single-page React application.
 
 ## Table of Contents
 
-- [Deployed Application](#Deployed)
+- [Deployed Application](#Deployed-Application)
 - [License](#license)
-- [Future Development](#Future)
+- [Future Development](#Future-Development)
 - [Questions](#questions)
 
 ## Deployed Application
@@ -26,3 +26,5 @@ As I increase my skill set and launch more products, I will continue to add proj
 ## Questions
 
 For additional information please contact me via GitHub at [https://github.com/vmichalecki](https://github.com/vmichalecki) or via email at [valerie227@gmail.com](mailto:valerie227@gmail.com?subject=[GitHub]%React%Portfolio).
+
+![Screenshot](./src/images/react-portfolio-screen.png)
